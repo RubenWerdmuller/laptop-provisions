@@ -2,9 +2,7 @@ export ZSH="/Users/ruben/.oh-my-zsh"
 
 ZSH_THEME="minimal"
 
-plugins=(
-  git
-)
+plugins=(git colorize brew osx)
 
 source $ZSH/oh-my-zsh.sh
 

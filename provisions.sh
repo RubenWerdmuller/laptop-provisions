@@ -37,8 +37,6 @@ brew install --cask spotify
 
 # Copy settings
 cp ~/.zshrc ~/.zshrc.original
-cp ./dot-gitconfig ~/.gitconfig
-cp ./dot-gitignore ~/.gitignore
-cp ./dot-zshrc ~/.zshrc
-cp ./gpg-conf ~/.gnupg/gpg.conf
-cp ./gpg-agent-conf ~/.gnupg/gpg-agent.conf
+cp ./congig/dot-gitconfig ~/.gitconfig
+cp ./congig/dot-gitignore ~/.gitignore
+cp ./congig/dot-zshrc ~/.zshrc

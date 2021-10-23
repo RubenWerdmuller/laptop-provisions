@@ -1,0 +1,37 @@
+[user]
+	name = Ruben Werdmuller
+	email = rubenwerdmuller@gmail.com
+
+[core]
+	excludesfile = /Users/bart/.gitignore
+
+[commit]
+	gpgsign = true
+
+[gpg]
+	program = /usr/local/bin/gpg
+
+[alias]
+	c  = commit -m
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an <%ae>%Creset' --abbrev-commit
+
+[push]
+	default = simple
+
+[color]
+	ui = auto
+
+[difftool]
+	prompt = false
+
+[diff]
+	tool = vimdiff
+
+[help]
+	autocorrect = 1
+
+[credential]
+	helper = osxkeychain
+
+[pull]
+        rebase = true

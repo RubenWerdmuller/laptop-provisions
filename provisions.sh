@@ -8,8 +8,7 @@ curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 
 # Development
 brew install kubectl
-brew install node
-# brew install node@14
+brew install node@17
 brew install git
 brew install curl
 
@@ -26,6 +25,7 @@ brew install --cask postman
 brew install --cask visual-studio-code
 brew install --cask figma
 brew install --cask rectangle
+brew install --cask typora
 
 # Socials
 brew install --cask microsoft-teams

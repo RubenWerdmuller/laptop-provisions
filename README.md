@@ -1,4 +1,4 @@
-# laptop-provisions
+# Laptop provisions
 
 Script to setup the tools I want to have available on a new Mac
 

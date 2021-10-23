@@ -7,10 +7,11 @@ brew install zsh zsh-completions zsh-syntax-highlighting
 curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 
 # Development
-brew install kubectl
-brew install node@17
-brew install git
-brew install curl
+brew install \ 
+  kubectl \
+  node@17 \
+  git \
+  curl
 
 # Passwords
 brew install --cask 1password

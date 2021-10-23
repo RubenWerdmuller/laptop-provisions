@@ -1,0 +1,21 @@
+export ZSH="/Users/ruben/.oh-my-zsh"
+
+ZSH_THEME="minimal"
+
+plugins=(
+  git
+)
+
+source $ZSH/oh-my-zsh.sh
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+# Brew sbin
+export PATH="/usr/local/sbin:$PATH"
+
+# Default browser
+export BROWSER=chrome
+
+# Node 17
+export PATH="/usr/local/opt/node@17/bin:$PATH"

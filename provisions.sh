@@ -17,6 +17,7 @@ brew install \
 brew install --cask 1password
 
 # Browsers
+brew install --cask google-chrome
 brew install --cask google-chrome-canary
 
 # Productivity

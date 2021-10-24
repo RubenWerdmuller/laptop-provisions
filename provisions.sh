@@ -15,7 +15,6 @@ brew install \
 
 # Passwords
 brew install --cask 1password
-brew install --cask bitwarden
 
 # Browsers
 brew install --cask google-chrome-canary

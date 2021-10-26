@@ -27,6 +27,7 @@ brew install --cask visual-studio-code
 brew install --cask figma
 brew install --cask rectangle
 brew install --cask typora
+brew install --cask nextcloud
 
 # Socials
 brew install --cask microsoft-teams

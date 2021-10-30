@@ -39,6 +39,7 @@ brew install --cask whatsapp
 brew install --cask spotify
 
 # Copy settings
+# Alternative [zsh tool](https://github.com/romkatv/powerlevel10k)
 cp ~/.zshrc ~/.zshrc.original
 cp ./config/dot-gitconfig ~/.gitconfig
 cp ./config/dot-gitignore ~/.gitignore

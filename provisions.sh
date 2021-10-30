@@ -28,6 +28,7 @@ brew install --cask figma
 brew install --cask rectangle
 brew install --cask typora
 brew install --cask nextcloud
+brew install --cask mongodb-compass
 
 # Socials
 brew install --cask microsoft-teams

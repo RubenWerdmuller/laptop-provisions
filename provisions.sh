@@ -11,7 +11,8 @@ brew install \
   kubectl \
   node@17 \
   git \
-  curl
+  curl \
+  mkcert
 
 # Passwords
 brew install --cask 1password

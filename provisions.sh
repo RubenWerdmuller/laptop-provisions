@@ -45,3 +45,5 @@ cp ~/.zshrc ~/.zshrc.original
 cp ./config/dot-gitconfig ~/.gitconfig
 cp ./config/dot-gitignore ~/.gitignore
 cp ./config/dot-zshrc ~/.zshrc
+
+sh ./config/vsc.sh

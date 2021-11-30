@@ -3,15 +3,20 @@ code --install-extension eamodio.gitlens
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension geisslerh.ayu-mirage-bold-italic
 code --install-extension naumovs.color-highlight
+code --install-extension IronGeek.vscode-env
 
 cat <<EOF > ~/Library/Application\ Support/Code/User/settings.json
 {
     "workbench.startupEditor": "none",
     "workbench.colorTheme": "Ayu Mirage PowerUp",
-
-    "editor.defaultFormatter": null,
+    
+    "editor.wordWrap": "on",
+    "editor.guides.bracketPairs": true,
     "editor.formatOnSave": true,
+    
     "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact"],
+    "explorer.confirmDragAndDrop": false,
+    
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -24,6 +29,5 @@ cat <<EOF > ~/Library/Application\ Support/Code/User/settings.json
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "sync.gist": "c451d057e83e8af5e44cccdcfc37daa2"
 }
 EOF

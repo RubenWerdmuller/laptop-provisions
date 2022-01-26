@@ -31,6 +31,11 @@ brew install --cask typora
 brew install --cask nextcloud
 brew install --cask mongodb-compass
 
+# Dev ops
+echo "https://pinniped.dev/"
+echo "k9s"
+brew install kubectl 
+
 # Socials
 brew install --cask microsoft-teams
 brew install --cask slack

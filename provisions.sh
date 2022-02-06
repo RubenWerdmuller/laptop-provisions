@@ -46,6 +46,7 @@ brew install --cask spotify
 
 # Copy settings
 # Alternative [zsh tool](https://github.com/romkatv/powerlevel10k)
+# Should add plugins for Oh My Zsh: https://dev.to/kumareth/a-beginner-s-guide-for-setting-up-autocomplete-on-ohmyzsh-hyper-with-plugins-themes-47f2
 cp ~/.zshrc ~/.zshrc.original
 cp ./config/dot-gitconfig ~/.gitconfig
 cp ./config/dot-gitignore ~/.gitignore

@@ -35,6 +35,7 @@ brew install --cask mongodb-compass
 echo "https://pinniped.dev/"
 echo "k9s"
 brew install kubectl 
+brew install telnet # https://www.geeksforgeeks.org/difference-ssh-telnet/
 
 # Socials
 brew install --cask microsoft-teams

@@ -20,7 +20,7 @@ brew install --cask 1password
 # Browsers
 brew install --cask google-chrome
 brew install --cask firefox
-brew install --cask google-chrome-canary
+# brew install --cask google-chrome-canary
 
 # Productivity
 brew install --cask docker
@@ -28,7 +28,6 @@ brew install --cask postman
 brew install --cask visual-studio-code
 brew install --cask figma
 brew install --cask rectangle
-brew install --cask typora
 brew install --cask nextcloud
 brew install --cask mongodb-compass
 

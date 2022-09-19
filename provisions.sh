@@ -52,6 +52,10 @@ brew install --cask notion
 # Chill
 brew install --cask spotify
 
+# Mac settings
+defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
+defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
+
 # Copy settings
 # Alternative [zsh tool](https://github.com/romkatv/powerlevel10k)
 # Should add plugins for Oh My Zsh: https://dev.to/kumareth/a-beginner-s-guide-for-setting-up-autocomplete-on-ohmyzsh-hyper-with-plugins-themes-47f2

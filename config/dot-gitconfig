@@ -1,9 +1,10 @@
+cd ~
+touch .gitconfig
+
+/bin/cat <<EOF >~/.gitconfig
 [user]
 	name = Ruben Werdmuller
 	email = rubenwerdmuller@gmail.com
-
-[core]
-	excludesfile = /Users/bart/.gitignore
 
 [commit]
 	gpgsign = true
@@ -30,8 +31,6 @@
 [help]
 	autocorrect = 1
 
-[credential]
-	helper = osxkeychain
-
 [pull]
         rebase = true
+EOF

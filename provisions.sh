@@ -2,6 +2,9 @@
 
 curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 
+# For Mac M chips
+sudo softwareupdate --install-rosetta
+
 # Oh My Zsh
 # brew install zsh zsh-completions zsh-syntax-highlighting
 # curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh

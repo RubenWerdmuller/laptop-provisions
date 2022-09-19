@@ -4,6 +4,8 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension geisslerh.ayu-mirage-bold-italic
 code --install-extension naumovs.color-highlight
 code --install-extension IronGeek.vscode-env
+code --install-extension redhat.vscode-yaml
+
 
 cat <<EOF > ~/Library/Application\ Support/Code/User/settings.json
 {

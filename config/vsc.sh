@@ -31,5 +31,8 @@ cat <<EOF > ~/Library/Application\ Support/Code/User/settings.json
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "files.associations": {
+        "*.gotmpl": "yaml"
+    },
 }
 EOF

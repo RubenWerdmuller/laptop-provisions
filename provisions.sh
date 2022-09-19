@@ -40,6 +40,7 @@ brew install --cask mongodb-compass
 echo "https://pinniped.dev/"
 brew install doctl
 brew install k9s
+brew install helm
 brew install kubectl 
 # brew install telnet # https://www.geeksforgeeks.org/difference-ssh-telnet/
 

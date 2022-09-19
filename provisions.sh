@@ -6,9 +6,11 @@ curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 # brew install zsh zsh-completions zsh-syntax-highlighting
 # curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 
+# Or Fish
+brew install fish
+
 # Development
-brew install \ 
-  kubectl \
+brew install \
   node@lts \
   git \
   curl \

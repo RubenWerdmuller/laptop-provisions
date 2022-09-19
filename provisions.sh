@@ -9,9 +9,6 @@ sudo softwareupdate --install-rosetta
 # brew install zsh zsh-completions zsh-syntax-highlighting
 # curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 
-# Or Fish
-brew install fish
-
 # Development
 brew install \
   node@lts \
@@ -20,7 +17,7 @@ brew install \
   mkcert
 
 # Passwords
-brew install --cask 1password
+# brew install --cask 1password
 
 # Browsers
 brew install --cask google-chrome
@@ -35,6 +32,9 @@ brew install --cask figma
 brew install --cask rectangle
 brew install --cask nextcloud
 brew install --cask mongodb-compass
+
+brew install httpie
+brew install fish
 
 # Dev ops
 echo "https://pinniped.dev/"

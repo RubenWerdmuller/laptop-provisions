@@ -44,6 +44,7 @@ brew install kubectl
 brew install --cask microsoft-teams
 brew install --cask slack
 brew install --cask whatsapp
+brew install --cask notion
 
 # Chill
 brew install --cask spotify

@@ -1,5 +1,5 @@
-cd ~
-touch .gitconfig
+# gitconfig
+touch ~/.gitconfig
 
 /bin/cat <<EOF >~/.gitconfig
 [user]
@@ -34,3 +34,15 @@ touch .gitconfig
 [pull]
         rebase = true
 EOF
+
+
+
+# gitignore
+touch ~/.gitignore
+
+/bin/cat <<EOF >~/.gitignore
+.DS_Store
+.vscode
+EOF
+
+git config --global core.excludesfile ~/.gitignore

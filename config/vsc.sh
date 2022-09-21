@@ -19,6 +19,9 @@ cat <<EOF > ~/Library/Application\ Support/Code/User/settings.json
     "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact"],
     "explorer.confirmDragAndDrop": false,
     
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },

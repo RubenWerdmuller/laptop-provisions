@@ -54,6 +54,7 @@ brew install --cask notion
 
 # Chill
 brew install --cask spotify
+brew install asciiquarium
 
 # Mac settings
 defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)

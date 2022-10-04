@@ -32,6 +32,7 @@ brew install --cask figma
 brew install --cask rectangle
 brew install --cask nextcloud
 brew install --cask mongodb-compass
+brew install --cask openoffice
 
 brew install httpie
 brew install fish
